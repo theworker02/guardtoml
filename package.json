@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/guardtoml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guard structured JSON toml payloads without a heavyweight toolkit.",
+  "bin": {
+    "guardtoml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/guardtoml.git"
+  },
+  "homepage": "https://theworker02.github.io/guardtoml/",
+  "keywords": [
+    "guard",
+    "toml",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
